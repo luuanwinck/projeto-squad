@@ -468,7 +468,7 @@ a img.twitter{
     background-color: rgb(20, 20, 20);
 }
 
-@media screen and (min-width: 378px) and (max-width: 768px){
+@media screen and (min-width: 378px) and (max-width: 585px){
     header{
         display: flex;
         flex-wrap: wrap;
@@ -704,6 +704,862 @@ a img.twitter{
     }
 }
 
-@media screen and (min-width: 430px) and (max-width: 430px){
+@media screen and (min-width: 586px) and (max-width: 699px){
+    header{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    header div.logo{
+        width: 30%;
+    }
+    header div.logo a img{
+        width: 60%;
+        height: 60%
+    }
+    header div.logo a span{
+        left: 18%;
+    }
 
+    header div#burger{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        width: 60%;
+        height: 100%;
+
+    }
+    header div#burger span{
+        margin-right: 2%;
+        font-size: 300%;
+        color: blueviolet;
+    }
+
+    header div.menu{
+        display: ;
+        flex-direction: column;
+        align-items: end;
+        width: 100%;
+        margin-top: 15%;
+    }
+    header div.menu a{
+        width: 80%;
+        margin-right: 2%;
+        margin-bottom: 2%;
+        padding: 3%;
+        border-radius: 5px;
+        border-right: 2px solid blueviolet;
+        text-align: end;
+        font-size: 28px;
+        color: rgba(255, 255, 255, 0.671);
+        background-image: linear-gradient(to right, rgba(10, 10, 10, 0), rgba(128, 128, 128, 0.055) ,rgba(255, 255, 255, 0.164));
+    }
+
+    header div.acesso{
+        width: 100%;
+        margin-top: 12%;
+    }
+    header div.acesso span{
+        position: relative;
+        left: 70%;
+    }
+    header div.acesso a.entrar{
+        display: ;
+        margin-left: 62%;
+        margin-right: 4%;
+        padding: 4% 10%;
+        border: 1px solid blueviolet;
+        border-radius: 5px;
+        font-size: 22px;
+
+    }
+
+    header div.acesso a.cadastro{
+        display: none;
+    }
+
+
+    main.primario{
+        align-items: start;
+        height: 50%;
+        margin-top: 63%;
+        background: url(../image/main-fundo2.png);  
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        opacity: .9;
+    }
+    main.primario div.boxall{
+        width: 100%;
+        height: 100%;
+        backdrop-filter: blur(1.5px);
+    }
+    main.primario div.boxall div.titulo h2{
+        margin-bottom: 3%;
+        font-size:40px;
+    }
+    main.primario div.boxall div.titulo p{
+        font-size:18px;
+    }
+
+    main.primario div.boxall div.button{
+        margin-top: 10%;
+    }
+    main.primario div.boxall div.button a{
+        padding: 3.5% 5%;
+        font-size: 22px;
+    }
+
+    main.secundario{
+        width: 100%;
+        height: 50%;
+    }
+
+    main.secundario div.boxall{
+        width: 90%;
+    }
+    main.secundario div.boxall div.video{
+        width: 100%;
+    }
+
+
+    main.terciario{
+        height: 145%;
+    }
+
+    main.terciario div.boxall{
+        display: flex;
+        justify-content: start;
+        width: 100%;
+        height: 100%;
+    }
+
+    main.terciario div.boxall div.titulo{
+        width: 100%;
+        height: 10%;
+    }
+
+    main.terciario div.boxall div.titulo h2{
+        width: 100%;
+        text-align: start;
+        font-size: 35px;
+    }
+
+    main.terciario div.boxall div.all{
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+        width: 100%;
+        
+    }
+
+    main.terciario div.boxall div.all div.artigo{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: start;
+    }
+
+    main.terciario div.boxall div.all div.artigo img{
+        width: 8%;
+        height: 15%;
+    }
+
+    main.terciario div.boxall div.all div.artigo h4{
+        font-size: 29px;
+    }
+
+    main.terciario div.boxall div.all div.artigo p{
+        font-size: 23px;
+    }
+
+
+    main.quaternario div.boxall{
+        width: 100%;
+        height: 100%;
+        margin-left: 2%;
+    }
+
+    main.quaternario div.boxall div.titulo{
+        display: flex;
+        width: 100%;
+        height: 15%;
+        margin-top: 5%;
+    }
+    main.quaternario div.boxall div.titulo h2{
+        font-size: 40px;
+    }
+
+    main.quaternario div.all{
+        display: flex;
+        flex-direction: column;
+        height: 65%;
+    }
+    main.quaternario div.boxall div.all div.artigo{
+        display: flex;
+        margin-bottom: 10%;
+        width: 100%;
+    }
+
+    main.quaternario div.boxall div.all div.artigo h3{
+        width: 50%;
+        font-size: 45px;
+    }
+
+    main.quaternario div.boxall div.all div.artigo h4{
+        width: 50%;
+        font-size: 26px;
+    }
+
+
+    aside{
+        width: 100%;
+        height: 120%;
+        border-bottom: 1px solid rgb(52, 52, 52);
+    }
+
+    aside div.boxall{
+        display: flex;
+        flex-direction: column;
+    }
+
+    aside div.boxall div.conteudo{
+        width: 100%;
+    }
+
+    aside div.boxall div.conteudo p{
+        font-size: 22px;
+    }
+
+    div#desenvolvedor{
+        margin-top: 10%;
+    }
+    aside div.conteudo#desenvolvedor h3{
+        margin-bottom: 5%;
+        font-size: 25px;
+    }
+    aside div.conteudo#desenvolvedor p{
+        font-size: 22px;
+    }
+    aside div.conteudo#desenvolvedor a{
+        margin-bottom: 3%;
+        font-size: 22px;
+    }
+
+    aside div#sobre{
+        margin-top: 5%;
+    }
+    aside div#sobre h3{
+        margin-bottom: 3%;
+        font-size: 25px;
+    }
+    aside div#sobre a{
+        margin-bottom: 3%;
+        font-size: 20px;
+    }
+
+
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        width: 60%;
+        height: 25%;
+        border: none;
+        background: rgb(8, 8, 8);
+        margin-top: 2%;
+    }
+
+    footer a.teste{
+        width: 25%;
+        height: 40%;
+        margin: 2% 2%;
+        padding: 1%;
+
+    }
+
+    footer a.teste img{
+        width: 50%;
+    }
+
+}
+
+
+@media screen and (min-width: 700px) and (max-width: 767px){
+    header{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    header div.logo{
+        width: 30%;
+    }
+    header div.logo a img{
+        width: 60%;
+        height: 60%
+    }
+    header div.logo a span{
+        left: 18%;
+    }
+
+    header div#burger{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        width: 60%;
+        height: 100%;
+
+    }
+    header div#burger span{
+        margin-right: 2%;
+        font-size: 300%;
+        color: blueviolet;
+    }
+
+    header div.menu{
+        display: ;
+        flex-direction: column;
+        align-items: end;
+        width: 100%;
+        margin-top: 15%;
+    }
+    header div.menu a{
+        width: 80%;
+        margin-right: 2%;
+        margin-bottom: 2%;
+        padding: 3%;
+        border-radius: 5px;
+        border-right: 2px solid blueviolet;
+        text-align: end;
+        font-size: 32px;
+        color: rgba(255, 255, 255, 0.671);
+        background-image: linear-gradient(to right, rgba(10, 10, 10, 0), rgba(128, 128, 128, 0.055) ,rgba(255, 255, 255, 0.164));
+    }
+
+    header div.acesso{
+        width: 100%;
+        margin-top: 12%;
+    }
+    header div.acesso span{
+        position: relative;
+        font-size: 35px;
+        left: 72%;
+    }
+    header div.acesso a.entrar{
+        display: ;
+        margin-left: 63%;
+        margin-right: 4%;
+        padding: 4% 10%;
+        border: 1px solid blueviolet;
+        border-radius: 5px;
+        font-size: 27px;
+
+    }
+
+    header div.acesso a.cadastro{
+        display: none;
+    }
+
+
+    main.primario{
+        align-items: start;
+        height: 50%;
+        margin-top: 63%;
+        background: url(../image/main-fundo2.png);  
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        opacity: .9;
+    }
+    main.primario div.boxall{
+        width: 100%;
+        height: 100%;
+        backdrop-filter: blur(1.5px);
+    }
+    main.primario div.boxall div.titulo h2{
+        margin-bottom: 3%;
+        font-size:40px;
+    }
+    main.primario div.boxall div.titulo p{
+        font-size:18px;
+    }
+
+    main.primario div.boxall div.button{
+        margin-top: 10%;
+    }
+    main.primario div.boxall div.button a{
+        padding: 3.5% 5%;
+        font-size: 22px;
+    }
+
+    main.secundario{
+        width: 100%;
+        height: 50%;
+    }
+
+    main.secundario div.boxall{
+        width: 90%;
+    }
+    main.secundario div.boxall div.video{
+        width: 100%;
+    }
+
+
+    main.terciario{
+        height: 145%;
+    }
+
+    main.terciario div.boxall{
+        display: flex;
+        justify-content: start;
+        width: 100%;
+        height: 100%;
+    }
+
+    main.terciario div.boxall div.titulo{
+        width: 100%;
+        height: 10%;
+    }
+
+    main.terciario div.boxall div.titulo h2{
+        width: 100%;
+        text-align: start;
+        font-size: 35px;
+    }
+
+    main.terciario div.boxall div.all{
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+        width: 100%;
+        
+    }
+
+    main.terciario div.boxall div.all div.artigo{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: start;
+    }
+
+    main.terciario div.boxall div.all div.artigo img{
+        width: 8%;
+        height: 15%;
+    }
+
+    main.terciario div.boxall div.all div.artigo h4{
+        font-size: 29px;
+    }
+
+    main.terciario div.boxall div.all div.artigo p{
+        font-size: 23px;
+    }
+
+
+    main.quaternario div.boxall{
+        width: 100%;
+        height: 100%;
+        margin-left: 2%;
+    }
+
+    main.quaternario div.boxall div.titulo{
+        display: flex;
+        width: 100%;
+        height: 15%;
+        margin-top: 5%;
+    }
+    main.quaternario div.boxall div.titulo h2{
+        font-size: 40px;
+    }
+
+    main.quaternario div.all{
+        display: flex;
+        flex-direction: column;
+        height: 65%;
+    }
+    main.quaternario div.boxall div.all div.artigo{
+        display: flex;
+        margin-bottom: 10%;
+        width: 100%;
+    }
+
+    main.quaternario div.boxall div.all div.artigo h3{
+        width: 50%;
+        font-size: 45px;
+    }
+
+    main.quaternario div.boxall div.all div.artigo h4{
+        width: 50%;
+        font-size: 26px;
+    }
+
+
+    aside{
+        width: 100%;
+        height: 120%;
+        border-bottom: 1px solid rgb(52, 52, 52);
+    }
+
+    aside div.boxall{
+        display: flex;
+        flex-direction: column;
+    }
+
+    aside div.boxall div.conteudo{
+        width: 100%;
+    }
+
+    aside div.boxall div.conteudo p{
+        font-size: 22px;
+    }
+
+    div#desenvolvedor{
+        margin-top: 10%;
+    }
+    aside div.conteudo#desenvolvedor h3{
+        margin-bottom: 5%;
+        font-size: 25px;
+    }
+    aside div.conteudo#desenvolvedor p{
+        font-size: 22px;
+    }
+    aside div.conteudo#desenvolvedor a{
+        margin-bottom: 3%;
+        font-size: 22px;
+    }
+
+    aside div#sobre{
+        margin-top: 5%;
+    }
+    aside div#sobre h3{
+        margin-bottom: 3%;
+        font-size: 25px;
+    }
+    aside div#sobre a{
+        margin-bottom: 3%;
+        font-size: 20px;
+    }
+
+
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+        height: 25%;
+        border: none;
+        background: rgb(8, 8, 8);
+        margin-top: 2%;
+    }
+
+    footer a.teste{
+        width: 25%;
+        height: 40%;
+        margin: 2% 2%;
+        padding: 1%;
+
+    }
+
+    footer a.teste img{
+        width: 50%;
+    }
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    header{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    header div.logo{
+        width: 30%;
+    }
+    header div.logo a img{
+        width: 60%;
+        height: 60%
+    }
+    header div.logo a span{
+        left: 18%;
+    }
+
+    header div#burger{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        width: 60%;
+        height: 100%;
+
+    }
+    header div#burger span{
+        margin-right: 2%;
+        font-size: 350%;
+        color: blueviolet;
+    }
+
+    header div.menu{
+        display: ;
+        flex-direction: column;
+        align-items: end;
+        width: 100%;
+        margin-top: 15%;
+    }
+    header div.menu a{
+        width: 80%;
+        margin-right: 2%;
+        margin-bottom: 2%;
+        padding: 2%;
+        border-radius: 5px;
+        border-right: 2px solid blueviolet;
+        text-align: end;
+        font-size: 37px;
+        color: rgba(255, 255, 255, 0.671);
+        background-image: linear-gradient(to right, rgba(10, 10, 10, 0), rgba(128, 128, 128, 0.055) ,rgba(255, 255, 255, 0.164));
+    }
+
+    header div.acesso{
+        width: 100%;
+        margin-top: 12%;
+    }
+    header div.acesso span{
+        position: relative;
+        font-size: 40px;
+        left: 68%;
+    }
+    header div.acesso a.entrar{
+        display: ;
+        margin-left: 59%;
+        margin-right: 4%;
+        padding: 4% 10%;
+        border: 1px solid blueviolet;
+        border-radius: 5px;
+        font-size: 35px;
+
+    }
+
+    header div.acesso a.cadastro{
+        display: none;
+    }
+
+
+    main.primario{
+        align-items: start;
+        height: 70%;
+        margin-top: 63%;
+        background: url(../image/main-fundo2.png);  
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        opacity: .9;
+    }
+    main.primario div.boxall{
+        width: 100%;
+        height: 100%;
+        backdrop-filter: blur(1.5px);
+    }
+    main.primario div.boxall div.titulo h2{
+        margin-bottom: 3%;
+        font-size:55px;
+    }
+    main.primario div.boxall div.titulo p{
+        font-size:28px;
+    }
+
+    main.primario div.boxall div.button{
+        margin-top: 10%;
+    }
+    main.primario div.boxall div.button a{
+        padding: 3.5% 4%;
+        font-size: 30px;
+    }
+
+    main.secundario{
+        width: 100%;
+        height: 70%;
+    }
+
+    main.secundario div.boxall{
+        width: 90%;
+    }
+    main.secundario div.boxall div.video{
+        width: 100%;
+    }
+
+
+    main.terciario{
+        height: 170%;
+    }
+
+    main.terciario div.boxall{
+        display: flex;
+        justify-content: start;
+        width: 100%;
+        height: 100%;
+    }
+
+    main.terciario div.boxall div.titulo{
+        width: 100%;
+        height: 10%;
+    }
+
+    main.terciario div.boxall div.titulo h2{
+        width: 100%;
+        text-align: start;
+        font-size: 35px;
+    }
+
+    main.terciario div.boxall div.all{
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+        width: 100%;
+        
+    }
+
+    main.terciario div.boxall div.all div.artigo{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: start;
+    }
+
+    main.terciario div.boxall div.all div.artigo img{
+        width: 8%;
+        height: 15%;
+    }
+
+    main.terciario div.boxall div.all div.artigo h4{
+        font-size: 29px;
+    }
+
+    main.terciario div.boxall div.all div.artigo p{
+        font-size: 23px;
+    }
+
+    
+    main.quaternario{
+        height: 120%;
+    }
+
+    main.quaternario div.boxall{
+        width: 100%;
+        height: 100%;
+        margin-left: 2%;
+    }
+
+    main.quaternario div.boxall div.titulo{
+        display: flex;
+        width: 100%;
+        height: 15%;
+        margin-top: 5%;
+    }
+    main.quaternario div.boxall div.titulo h2{
+        font-size: 40px;
+    }
+
+    main.quaternario div.all{
+        display: flex;
+        flex-direction: column;
+        height: 65%;
+    }
+    main.quaternario div.boxall div.all div.artigo{
+        display: flex;
+        margin-bottom: 5%;
+        width: 100%;
+    }
+
+    main.quaternario div.boxall div.all div.artigo h3{
+        width: 50%;
+        font-size: 55px;
+    }
+
+    main.quaternario div.boxall div.all div.artigo h4{
+        width: 50%;
+        font-size: 30px;
+    }
+
+
+    aside{
+        width: 100%;
+        height: 135%;
+        border-bottom: 1px solid rgb(52, 52, 52);
+    }
+
+    aside div.boxall{
+        display: flex;
+        flex-direction: column;
+    }
+
+    aside div.boxall div.conteudo{
+        width: 100%;
+    }
+
+    aside div.boxall div.conteudo p{
+        font-size: 22px;
+    }
+
+    div#desenvolvedor{
+        margin-top: 10%;
+    }
+    aside div.conteudo#desenvolvedor h3{
+        margin-bottom: 5%;
+        font-size: 25px;
+    }
+    aside div.conteudo#desenvolvedor p{
+        font-size: 22px;
+    }
+    aside div.conteudo#desenvolvedor a{
+        margin-bottom: 3%;
+        font-size: 22px;
+    }
+
+    aside div#sobre{
+        margin-top: 5%;
+    }
+    aside div#sobre h3{
+        margin-bottom: 3%;
+        font-size: 25px;
+    }
+    aside div#sobre a{
+        margin-bottom: 3%;
+        font-size: 20px;
+    }
+
+
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        width: 40%;
+        height: 23%;
+        border: none;
+        background: rgb(8, 8, 8);
+        margin-top: 2%;
+    }
+
+    footer a.teste{
+        width: 25%;
+        height: 40%;
+        margin: 2% 2%;
+        padding: 1%;
+
+    }
+
+    footer a.teste img{
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width: 850px) and (max-width: 992px){
+    header div.acesso span{
+        position: relative;
+        font-size: 40px;
+        left: 71%;
+    }
+    header div.acesso a.entrar{
+        display: ;
+        margin-left: 61%;
+        margin-right: 4%;
+        padding: 4% 10%;
+        border: 1px solid blueviolet;
+        border-radius: 5px;
+        font-size: 35px;
+
+    }
 }
