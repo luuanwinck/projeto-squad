@@ -468,7 +468,7 @@ a img.twitter{
     background-color: rgb(20, 20, 20);
 }
 
-@media screen and (min-width: 378px) and (max-width: 429px){
+@media screen and (min-width: 378px) and (max-width: 768px){
     header{
         display: flex;
         flex-wrap: wrap;
@@ -704,4 +704,6 @@ a img.twitter{
     }
 }
 
-@media screen and (min-width: 430px) and (max-width: 430px)
+@media screen and (min-width: 430px) and (max-width: 430px){
+
+}
