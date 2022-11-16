@@ -15,11 +15,7 @@ button[disabled]{
 }
 
 .error{
-    display: none;
-    position: absolute;
-    
-    
-    
+    display: none;   
     text-align: center;
     width: 300px;
     border-radius: 5px;
