@@ -1613,7 +1613,7 @@ a img.twitter{
     }
     
     header div.menu{
-        display: flex;
+        display: none;
         align-items: center;
         justify-content: space-around;    
         width: 33.33%;
@@ -1627,7 +1627,7 @@ a img.twitter{
     }
     
     header div.acesso{
-        display: flex;
+        display: none;
         align-items: center;   
         justify-content: space-around;
         width: 23.33%;
