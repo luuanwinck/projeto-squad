@@ -506,7 +506,7 @@ a img.twitter{
     }
 
     header div.menu{
-        display: none;
+        display: ;
         flex-direction: column;
         align-items: end;
         width: 100%;
@@ -524,7 +524,6 @@ a img.twitter{
     }
 
     header div.acesso{
-		display: none;
         width: 100%;
         margin-top: 12%;
     }
@@ -742,7 +741,7 @@ a img.twitter{
     }
 
     header div.menu{
-        display: none;
+        display: ;
         flex-direction: column;
         align-items: end;
         width: 100%;
@@ -761,7 +760,6 @@ a img.twitter{
     }
 
     header div.acesso{
-		display: none;
         width: 100%;
         margin-top: 12%;
     }
@@ -1021,7 +1019,7 @@ a img.twitter{
     }
 
     header div.menu{
-        display: none;
+        display: ;
         flex-direction: column;
         align-items: end;
         width: 100%;
@@ -1039,7 +1037,6 @@ a img.twitter{
     }
 
     header div.acesso{
-		display: none;
         width: 100%;
         margin-top: 12%;
     }
