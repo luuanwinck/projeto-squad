@@ -1,7 +1,4 @@
 function clickMenu() {
-
-    var a = document.getElementById(itens.style.display)
-
     if (itens.style.display == 'flex') {
         itens.style.display = 'none'
     } else {
