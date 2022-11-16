@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/estilo.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <script src="js/home.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -25,25 +26,25 @@
     />
     <title>projeto-squad</title>
   </head>
-  <body>
+  <body onresize="mudouTamanho()">
     <header>
       <div class="logo">
-        <a href=""
+        <a href="index.html"
           ><img src="image/globe.png" alt="" /> <span>CONNECT WORLD</span></a
         >
       </div>
-      <div id="burger">
-        <span class="material-symbols-outlined"> menu </span>
+      <div id="burger" onclick="clickMenu2()">
+        <span class="material-symbols-outlined" onclick="clickMenu()"> menu </span>
       </div>
-      <div class="menu">
-        <a href="">Home</a>
-        <a href="">Blog</a>
-        <a href="">A Connect World</a>
+      <div id="itens" class="menu">
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="quemsomos.html">A Connect World</a>
       </div>
-      <div class="acesso">
+      <div id="login" class="acesso">
         <span class="material-symbols-outlined">person</span
-        ><a class="entrar" href="">ENTRAR</a>
-        <a class="cadastro" href="">CRIAR CONTA</a>
+        ><a class="entrar" href="login.html" target="_blank">ENTRAR</a>
+        <a class="cadastro" href="cadastro.html" target="_blank">CRIAR CONTA</a>
       </div>
     </header>
     <main class="primario">
