@@ -15,7 +15,7 @@ cepInput.addEventListener("keypress", (e) => {
 
   console.log(key);
 
- 
+  
 
   console.log(onlyNumbers.test(key));
 
@@ -124,7 +124,7 @@ addressForm.addEventListener("submit", (e) => {
   setTimeout(() => {
     toggleLoader();
 
-    toggleMessage("Endereço salvo com sucesso!");
+    toggleMessage("Cadastro efetuado com sucesso!");
 
     addressForm.reset();
 

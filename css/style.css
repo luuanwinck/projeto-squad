@@ -16,7 +16,7 @@
   justify-content: space-between;
   width: 100vw;
   height: 99.8vh;
-  background-color: var(--bg-color);
+  background-color: #003F66;
   color: var(--primary-color);
 }
 
@@ -83,7 +83,7 @@
 }
 
 .step .active {
-  background-color: var(--secondary-color);
+  background-color: #19A7FF;
 }
 
 .step p {
@@ -114,8 +114,8 @@
 
 #order-form-container input,
 #order-form-container select {
-  background-color: var(--bg-color);
-  border: 2px solid var(--border-color);
+  background-color: #033757;
+  border: none;
   color: var(--primary-color);
 }
 
@@ -142,15 +142,13 @@
 }
 
 #save-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
- font-weight: bolder;
-  background-color: #02e7a29f;
+  background-color: #19A7FF;
   border: none;
-  height: 3em;
-  width: 10em;
-  border-radius: 1.5em;
+  height: 2.5em;
+  width: 8em;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
 }
 
 #save-btn a {

@@ -1,0 +1,428 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#time
+{
+    min-height: 100vh;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    background-color: #EFEFEF;
+}
+
+.slide-container
+{
+    top: 50px;
+    max-width: 1120px;
+    width: 100%;
+    background-color: rgba(151, 141, 141, 0.452);
+    padding: 40px;
+
+}
+
+
+
+.slide-content
+{
+    margin: 0 40px
+}
+
+
+
+.card
+{
+    
+
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+
+
+.image-content, .card-content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+
+}
+
+
+.image-content
+{
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+    
+}
+
+
+
+
+.overlay
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #19A7FF;
+    border-radius: 25px 25px 0 25px;
+}
+
+
+
+.overlay::before,
+.overlay::after
+{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: #19A7FF;
+
+
+}
+
+
+.overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: rgb(250, 249, 248);
+
+}
+
+
+
+
+
+
+
+.card-image
+{ position: relative;
+    height: 150px;
+    width: 200px;
+    border-radius: 4px;
+    
+    padding: 3px;
+    
+}
+
+
+.card-image .card-img
+{
+    height: 100%;
+    width: 100%;
+    
+    border-radius: 4px;
+    
+     
+    
+}
+
+.name
+{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(15, 17, 17);
+}
+
+.description
+{
+    margin-top: 10px;
+    font-size: 14px;
+    color: rgb(16, 24, 24);
+    text-align: center;
+}
+
+
+.button
+{
+    border: none;
+    font-size: 16px;
+    color: #f5f3f3;
+    padding: 8px 16px;
+    background-color:  #19A7FF;
+    border: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transform: all 0.3s ease;
+    border-radius: 6px;
+}
+
+.button:hover
+{
+    
+    background-color: #033757;
+}
+
+
+#height-card{
+    max-height: 383px;
+
+}
+
+
+.primariaqs{
+     
+    
+    background: url("/image/paises/todos.png") center  ; 
+    
+   
+   
+    
+    width: 100vw;
+    height: 90vh;
+    /* border: 1px solid yellow; */
+}
+
+ .caixa{
+    background-color: #19a7ff00;
+    height: 300px;
+    gap:40px;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+    border-radius: 5px; 
+    transition:  all 0.25s ease-in-out;
+    margin: 130px 0 0 0;
+     /* border: 1px solid rgb(41, 173, 7);   */
+    
+} 
+
+/* .if{
+    width: 50%;
+    height: 100%;
+
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+} */
+
+/* .caixa h1{
+    color: white;
+    font-family: 'Source Sans Pro';
+    font-size: 50px;
+    text-shadow: 1px 1px 1px black;
+} */
+
+
+
+
+
+.titulosqs{
+    display: flex;
+    justify-content: center;
+    
+    
+     
+    width: 100%;
+    
+       /* border: 1px solid rgb(196, 14, 14);    */
+    
+    
+    
+}
+.titulosqs h1{
+    color: rgb(250, 245, 245);   
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Source Sans Pro';
+    
+
+}
+
+.titulosqs h2{
+    font-size: 40px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Source Sans Pro';
+}
+.titulosqs h3{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Source Sans Pro';
+}
+
+.titulosqs button{
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    background-color: #2C5593;
+    border-radius: 5px;
+}
+
+.titulosqs button a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Source Sans Pro';
+}
+
+.center-destaque{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid yellow; */
+    width: 100%;
+    height: 45.5%;
+}
+
+.destaque{
+    text-align: center;
+    padding: 40px 0 0 0;
+   
+    
+}
+
+.destaque p {
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Source Sans Pro';
+    color: white;
+   
+}
+
+.empresas{
+    
+    width: 100%;
+    height: 17.8%;
+    
+    
+    
+}
+.empresas ul{
+    margin: 40px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    
+    
+}
+
+.empresas ul li{
+    font-size: 38px;
+    color: white;
+    font-family: 'Source Sans Pro';
+  
+    
+}
+
+
+.secundarioqs{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    /* border: 1px solid red; */
+}
+
+.interior{
+    width: 50%;
+    height: 80%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.int{
+   
+    width: 80%;
+    height: 90%;
+    /* border: 1px solid black; */
+}
+
+.int2{
+   
+    width: 90%;
+    height: 80%;
+    /* border: 1px solid black; */
+}
+
+.int img{
+    width: 100%;
+    
+}
+
+.img2{
+    width: 50%;
+    height: 5%;
+    
+
+    
+}
+
+.img2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.int-txt h1{
+    font-family: 'Source Sans Pro';
+    font-size: 45px;
+    color: #333333;
+}
+
+.int-txt p {
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+    color: #333333;
+}
+
+.negrito{
+    color: #333333;
+    font-weight: bold;
+}
+
+.mvv{
+    width: 100%;
+    height: 23.4%;
+    /* border: 1px solid rgb(29, 175, 10); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left
+    
+}
+
+.mvv-txt{
+    width: 100%;
+    height: 60%;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mvv-txt p {
+    color: #333333;
+    
+
+}
+
+
+
+.mvv-img{
+    width: 20%;
+    height: 60%;
+    /* border: 1px solid yellow; */
+}
+
+
+
+

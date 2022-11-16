@@ -31,7 +31,7 @@ body{
     overflow-x: hidden;
     width: 100vw;
     height: 100vh;
-    background: rgb(8, 8, 8);
+    background: white;
     
 }
 header{
@@ -51,7 +51,7 @@ header div.logo{
     height: 100%;
 }
 header div.logo img{
-    width: 30%;
+    width: 20%;
     height: 70%;
     position: relative;
     left: 10%;
@@ -62,12 +62,16 @@ header div.logo a{
     text-decoration: none;
     font-size: 20px;
     font-family: monospace;
-    color: white;
+    color: rgb(65, 63, 63);
 }
 header div.logo a span{
     position: absolute;
     bottom: 92.5%;
     left: 8.5%;
+}
+
+header div#burger{
+    display: none;
 }
 
 header div.menu{
@@ -82,7 +86,7 @@ header div.menu a{
     text-decoration: none;
     font-weight: 600;
     font-size: 20px;
-    color: rgb(129, 129, 129);
+    color: rgb(90, 90, 90);
 }
 header div.menu a:hover{
     color: rgb(233, 233, 233);
@@ -98,22 +102,23 @@ header div.acesso{
 header div.acesso a{
     text-decoration: none;
     font-size: 18px;
-    color: white;
+    color: rgb(107, 105, 105);
 }
 header div.acesso span{
     position: relative;
     left: 7%;
     font-size: 22px;
-    color: blueviolet;
+    color: rgb(14, 127, 233);
 }
 header div.acesso .cadastro{
     padding: 3% 7%;
-    border: .5px solid blueviolet;
+    border: .5px solid rgb(109, 166, 219);
     border-radius: 5px;
 
 }
 header div.acesso .cadastro:hover{
-    background: blueviolet;
+    color: white;
+    background: rgb(109, 166, 219);
 }
 
 main.primario{
@@ -123,7 +128,7 @@ main.primario{
     align-items: center;
     width: 100vw;
     height: 88vh;
-    background: url(../image/main-fundo2.png);  
+    background: url(../image/connect-world.png);  
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -138,7 +143,7 @@ main.primario div.boxall{
     width: 100%;
     height: 100%;
     font-family: arial;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(3px);
 }
 main.primario div.boxall div.titulo{
     margin-bottom: 7%;
@@ -164,12 +169,12 @@ main.primario div.boxall div.button a{
     font-size: 20px;
     font-family: 'Source Sans Pro';
     font-weight: bold;
-    background: blueviolet;
+    background: rgb(14, 127, 233);
     color: white;
 
 }
 main.primario div.boxall div.button a:hover{
-    background: rgba(137, 43, 226, 0.966);
+    background: rgb(12, 113, 207);
 
 }
 
@@ -205,10 +210,10 @@ main.terciario{
     justify-content: center;
     width: 100vw;
     height: 100vh;
-    border-top: 1px solid rgb(52, 52, 52);
-    border-bottom: 1px solid rgb(52, 52, 52);
+    border-top: 1px solid rgb(209, 208, 208);
+    border-bottom: 1px solid rgb(209, 208, 208);
     font-family: 'Source Sans Pro';
-    background: rgb(12, 12, 12);
+    background: rgb(224, 223, 223);
 }
 main.terciario div.boxall{
     display: flex;
@@ -230,10 +235,10 @@ main.terciario div.boxall div.titulo{
 }
 main.terciario div.boxall div.titulo h2{
     font-size: 60px;
-    color: white;
+    color: rgb(58, 100, 136);
 }
 main.terciario div.boxall div.titulo h2 span{
-    color: blueviolet;
+    color: rgb(12, 113, 207);
 }
 
 main.terciario div.boxall div.all{
@@ -257,7 +262,7 @@ main.terciario div.boxall div.all div.artigo img{
 main.terciario div.boxall div.all div.artigo h4{
     margin-bottom: 2%;
     font-size: 27px;
-    color: white;
+    color: rgb(58, 100, 136);
 }
 main.terciario div.boxall div.all div.artigo p{
     font-size: 19px;
@@ -286,10 +291,10 @@ main.quaternario div.boxall div.titulo h2{
     width: 100%;
     height: 100%;
     font-size: 55px;
-    color: white;
+    color: rgb(58, 100, 136);
 }
 main.quaternario div.boxall div.titulo h2 span{
-    color: rgb(63, 125, 74);;
+    color: rgb(245, 124, 76);
 }
 
 main.quaternario div.boxall div.all{
@@ -306,16 +311,17 @@ main.quaternario div.boxall div.all div.artigo h3{
     margin-bottom: 5%;
     font-family: sans-serif;
     font-size: 45px;
-    color: rgb(255, 254, 254);
+    color: rgb(58, 100, 136);
 }
 main.quaternario div.boxall div.all div.artigo h3 span{
-    color: rgb(63, 125, 74);
+    color: rgb(245, 124, 76);
 }
 
 main.quaternario div.boxall div.all div.artigo h4{
     font-size: 18px;
-    color: white;
+    color: rgb(58, 100, 136);
 }
+
 
 
 main.quinario{
@@ -331,7 +337,7 @@ aside{
     width: 100vw;
     height: 30vh;    
     border-top: 1px solid rgb(52, 52, 52);
-    background: rgb(12, 12, 12);
+    background: rgb(21, 97, 121);
 }
 
 aside div.boxall{
@@ -356,8 +362,9 @@ aside div.logo{
     height: 70%;
 }
 aside div.logo img{
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 70%;
+    margin-top: 10px;
 }
 
 aside div.artigo{
@@ -371,13 +378,13 @@ aside div.artigo a{
     height: 70%;
     font-size: 32px;
     text-decoration: none;
-    color: white;
+    color: rgba(255, 255, 255, 0.9);
 }
 
 div.conteudo p{
     width: 60%;
     font-size: 13px;
-    color: rgba(255, 255, 255, 0.699);
+    color: rgba(255, 255, 255, 0.7);
 }
 
 aside div.conteudo#desenvolvedor{
@@ -388,7 +395,7 @@ aside div.conteudo#desenvolvedor{
 }
 aside div.conteudo#desenvolvedor h3{
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.705);
+    color: rgba(255, 255, 255, 0.9);
     margin-bottom: 10px;
 }
 
@@ -402,7 +409,7 @@ aside div.conteudo#desenvolvedor a{
     text-decoration: none;
     margin-bottom: 8px;
     font-size: 14px;
-    color: rgba(255, 255, 255, 0.534);
+    color: rgba(255, 255, 255, 0.7);
 }
 
 aside #sobre{
@@ -412,7 +419,7 @@ aside #sobre{
 }
 aside #sobre h3{
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.705);
+    color: rgba(255, 255, 255, 0.9);
     margin-bottom: 10px;
 }
 aside #sobre a:hover{
@@ -422,7 +429,7 @@ aside #sobre a{
     text-decoration: none;
     margin-bottom: 8px;
     font-size: 14px;
-    color: rgba(255, 255, 255, 0.534);
+    color: rgba(255, 255, 255, 0.7);
 }
 aside #sobre a:hover{
     color: rgba(255, 255, 255, 0.61);
@@ -434,8 +441,8 @@ footer{
     align-items: center;
     width: 100vw;
     height: 10vh;
-    border-top: 1px solid rgb(52, 52, 52);
-    background: rgb(12, 12, 12);
+    border-top: 1px solid rgb(57, 107, 122);
+    background: rgb(21, 97, 121);
 }
 a.teste{
     text-align: center;
@@ -443,10 +450,10 @@ a.teste{
     width: 4.5%;
     height: 70%;
     border-radius: 10px;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(11, 91, 116);
 }
 a.teste:hover{
-    background: rgb(24, 24, 24);
+    background: rgb(7, 69, 88);
 }
 
 a.teste img{
@@ -455,7 +462,7 @@ a.teste img{
     margin-top: 10px;
     padding: 5px;
     border-radius: 6px;
-    background: #8a2be2;
+    background: rgb(42, 121, 145);
 }
 a img.youtube{
     padding: 9px;
@@ -465,7 +472,7 @@ a img.face{
 }
 a img.twitter{
     padding: 0;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(11, 91, 116);
 }
 
 @media screen and (min-width: 378px) and (max-width: 585px){
@@ -495,7 +502,7 @@ a img.twitter{
     header div#burger span{
         margin-right: 2%;
         font-size: 200%;
-        color: blueviolet;
+        color: rgb(14, 127, 233);
     }
 
     header div.menu{
@@ -511,10 +518,9 @@ a img.twitter{
         margin-bottom: 2%;
         padding: 3%;
         border-radius: 5px;
-        border-right: 2px solid blueviolet;
+        border-right: 3px solid rgb(14, 127, 233);
         text-align: end;
-        color: rgba(255, 255, 255, 0.671);
-        background-image: linear-gradient(to right, rgba(10, 10, 10, 0), rgba(128, 128, 128, 0.055) ,rgba(255, 255, 255, 0.164));
+        color: rgb(90, 90, 90);
     }
 
     header div.acesso{
@@ -530,7 +536,7 @@ a img.twitter{
         margin-left: 55%;
         margin-right: 4%;
         padding: 4% 12%;
-        border: 1px solid blueviolet;
+        border: 1px solid rgb(14, 127, 233);
         border-radius: 5px;
 
     }
@@ -544,7 +550,7 @@ a img.twitter{
         align-items: start;
         height: 50%;
         margin-top: 70%;
-        background: url(../image/main-fundo2.png);  
+        background: url(../image/connect-world.png);  
         background-size: 100% 100%;
         background-repeat: no-repeat;
         background-position: center;
@@ -689,13 +695,13 @@ a img.twitter{
         width: 45%;
         height: 15%;
         border: none;
-        background: rgb(8, 8, 8);
+        background: white;
     }
 
     footer a.teste{
         width: 25%;
         height: 45%;
-        margin: 5px 5px;
+        margin: 3px 3px;
 
     }
 
@@ -731,7 +737,7 @@ a img.twitter{
     header div#burger span{
         margin-right: 2%;
         font-size: 300%;
-        color: blueviolet;
+        color: rgb(14, 127, 233);
     }
 
     header div.menu{
@@ -747,10 +753,9 @@ a img.twitter{
         margin-bottom: 2%;
         padding: 3%;
         border-radius: 5px;
-        border-right: 2px solid blueviolet;
+        border-right: 2px solid rgb(14, 127, 233);
         text-align: end;
         font-size: 28px;
-        color: rgba(255, 255, 255, 0.671);
         background-image: linear-gradient(to right, rgba(10, 10, 10, 0), rgba(128, 128, 128, 0.055) ,rgba(255, 255, 255, 0.164));
     }
 
@@ -767,7 +772,7 @@ a img.twitter{
         margin-left: 62%;
         margin-right: 4%;
         padding: 4% 10%;
-        border: 1px solid blueviolet;
+        border: 1px solid rgb(14, 127, 233);
         border-radius: 5px;
         font-size: 22px;
 
@@ -782,7 +787,7 @@ a img.twitter{
         align-items: start;
         height: 50%;
         margin-top: 63%;
-        background: url(../image/main-fundo2.png);  
+        background: url(../image/connect-world.png); 
         background-size: 100% 100%;
         background-repeat: no-repeat;
         background-position: center;
@@ -964,14 +969,14 @@ a img.twitter{
         width: 45%;
         height: 20%;
         border: none;
-        background: rgb(8, 8, 8);
+        background: white;
         margin-top: 2%;
     }
 
     footer a.teste{
         width: 25%;
         height: 40%;
-        margin: 2% 2%;
+        margin: 2px 2px;
         padding: 1%;
 
     }
@@ -1026,11 +1031,9 @@ a img.twitter{
         margin-bottom: 2%;
         padding: 3%;
         border-radius: 5px;
-        border-right: 2px solid blueviolet;
+        border-right: 2px solid rgb(14, 127, 233);
         text-align: end;
         font-size: 32px;
-        color: rgba(255, 255, 255, 0.671);
-        background-image: linear-gradient(to right, rgba(10, 10, 10, 0), rgba(128, 128, 128, 0.055) ,rgba(255, 255, 255, 0.164));
     }
 
     header div.acesso{
@@ -1047,7 +1050,7 @@ a img.twitter{
         margin-left: 63%;
         margin-right: 4%;
         padding: 4% 10%;
-        border: 1px solid blueviolet;
+        border: 1px solid rgb(14, 127, 233);
         border-radius: 5px;
         font-size: 27px;
 
@@ -1062,7 +1065,7 @@ a img.twitter{
         align-items: start;
         height: 50%;
         margin-top: 63%;
-        background: url(../image/main-fundo2.png);  
+        background: url(../image/connect-world.png);  
         background-size: 100% 100%;
         background-repeat: no-repeat;
         background-position: center;
@@ -1244,14 +1247,14 @@ a img.twitter{
         width: 27%;
         height: 17%;
         border: none;
-        background: rgb(8, 8, 8);
+        background: white;
         margin-top: 2%;
     }
 
     footer a.teste{
         width: 25%;
         height: 40%;
-        margin: 2% 2%;
+        margin: 1px 1px;
         padding: 1%;
 
     }
@@ -1290,7 +1293,7 @@ a img.twitter{
     header div#burger span{
         margin-right: 2%;
         font-size: 350%;
-        color: blueviolet;
+        color: rgb(14, 127, 233);
     }
 
     header div.menu{
@@ -1306,11 +1309,9 @@ a img.twitter{
         margin-bottom: 2%;
         padding: 2%;
         border-radius: 5px;
-        border-right: 2px solid blueviolet;
+        border-right: 2px solid rgb(14, 127, 233);
         text-align: end;
         font-size: 37px;
-        color: rgba(255, 255, 255, 0.671);
-        background-image: linear-gradient(to right, rgba(10, 10, 10, 0), rgba(128, 128, 128, 0.055) ,rgba(255, 255, 255, 0.164));
     }
 
     header div.acesso{
@@ -1327,7 +1328,7 @@ a img.twitter{
         margin-left: 59%;
         margin-right: 4%;
         padding: 4% 10%;
-        border: 1px solid blueviolet;
+        border: 1px solid rgb(14, 127, 233);
         border-radius: 5px;
         font-size: 35px;
 
@@ -1342,7 +1343,7 @@ a img.twitter{
         align-items: start;
         height: 70%;
         margin-top: 63%;
-        background: url(../image/main-fundo2.png);  
+        background: url(../image/connect-world.png);  
         background-size: 100% 100%;
         background-repeat: no-repeat;
         background-position: center;
@@ -1481,6 +1482,14 @@ a img.twitter{
         border-bottom: 1px solid rgb(52, 52, 52);
     }
 
+    aside div.boxall div.conteudo img{
+        width: 50%;
+    }
+
+    aside div.boxall div.artigo a{
+        text-align: start;
+    }
+
     aside div.boxall{
         display: flex;
         flex-direction: column;
@@ -1528,14 +1537,14 @@ a img.twitter{
         width: 25%;
         height: 15%;
         border: none;
-        background: rgb(8, 8, 8);
+        background: white;
         margin-top: 2%;
     }
 
     footer a.teste{
         width: 25%;
         height: 40%;
-        margin: 2% 2%;
+        margin: 1px 1px;
         padding: 1%;
 
     }
@@ -1557,7 +1566,6 @@ a img.twitter{
         margin-left: 61%;
         margin-right: 4%;
         padding: 4% 10%;
-        border: 1px solid blueviolet;
         border-radius: 5px;
         font-size: 35px;
 
@@ -1572,7 +1580,6 @@ a img.twitter{
         align-items: center;
         width: 100vw;
         height: 12vh;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.226);
         font-weight: bold;
         font-family: 'Source Sans Pro';
     }
@@ -1586,7 +1593,7 @@ a img.twitter{
         width: 30%;
         height: 70%;
         position: relative;
-        left: 10%;
+        left: 0.5%;
     }
     header div.logo a{
         width: 100%;
@@ -1594,12 +1601,11 @@ a img.twitter{
         text-decoration: none;
         font-size: 20px;
         font-family: monospace;
-        color: white;
     }
     header div.logo a span{
         position: absolute;
         bottom: 92.5%;
-        left: 7.5%;
+        left: 8.5%;
     }
     
     header div.menu{
@@ -1614,10 +1620,6 @@ a img.twitter{
         text-decoration: none;
         font-weight: 600;
         font-size: 20px;
-        color: rgb(129, 129, 129);
-    }
-    header div.menu a:hover{
-        color: rgb(233, 233, 233);
     }
     
     header div.acesso{
@@ -1630,22 +1632,16 @@ a img.twitter{
     header div.acesso a{
         text-decoration: none;
         font-size: 18px;
-        color: white;
     }
     header div.acesso span{
         position: relative;
         left: 0;
         font-size: 22px;
-        color: blueviolet;
     }
     header div.acesso .cadastro{
         padding: 3% 7%;
-        border: .5px solid blueviolet;
         border-radius: 5px;
     
-    }
-    header div.acesso .cadastro:hover{
-        background: blueviolet;
     }
     
     main.primario{
@@ -1655,7 +1651,7 @@ a img.twitter{
         align-items: center;
         width: 100vw;
         height: 88vh;
-        background: url(../image/main-fundo2.png);  
+        background: url(../image/connect-world.png);  
         background-size: 100% 100%;
         background-repeat: no-repeat;
         background-position: center;
@@ -1696,12 +1692,11 @@ a img.twitter{
         font-size: 20px;
         font-family: 'Source Sans Pro';
         font-weight: bold;
-        background: blueviolet;
         color: white;
     
     }
     main.primario div.boxall div.button a:hover{
-        background: rgba(137, 43, 226, 0.966);
+        background: rgba(43, 116, 226, 0.966);
     
     }
     
@@ -1740,7 +1735,6 @@ a img.twitter{
         border-top: 1px solid rgb(52, 52, 52);
         border-bottom: 1px solid rgb(52, 52, 52);
         font-family: 'Source Sans Pro';
-        background: rgb(12, 12, 12);
     }
     main.terciario div.boxall{
         display: flex;
@@ -1762,10 +1756,6 @@ a img.twitter{
     }
     main.terciario div.boxall div.titulo h2{
         font-size: 60px;
-        color: white;
-    }
-    main.terciario div.boxall div.titulo h2 span{
-        color: blueviolet;
     }
     
     main.terciario div.boxall div.all{
@@ -1789,11 +1779,9 @@ a img.twitter{
     main.terciario div.boxall div.all div.artigo h4{
         margin-bottom: 2%;
         font-size: 27px;
-        color: white;
     }
     main.terciario div.boxall div.all div.artigo p{
         font-size: 19px;
-        color: rgb(147, 147, 147);
     }
     
     
@@ -1818,10 +1806,6 @@ a img.twitter{
         width: 100%;
         height: 100%;
         font-size: 55px;
-        color: white;
-    }
-    main.quaternario div.boxall div.titulo h2 span{
-        color: rgb(63, 125, 74);;
     }
     
     main.quaternario div.boxall div.all{
@@ -1838,10 +1822,6 @@ a img.twitter{
         margin-bottom: 5%;
         font-family: sans-serif;
         font-size: 45px;
-        color: rgb(255, 254, 254);
-    }
-    main.quaternario div.boxall div.all div.artigo h3 span{
-        color: rgb(63, 125, 74);
     }
     
     main.quaternario div.boxall div.all div.artigo h4{
@@ -1862,8 +1842,6 @@ a img.twitter{
         align-items: center;
         width: 100vw;
         height: 30vh;    
-        border-top: 1px solid rgb(52, 52, 52);
-        background: rgb(12, 12, 12);
     }
     
     aside div.boxall{
@@ -1888,8 +1866,8 @@ a img.twitter{
         height: 70%;
     }
     aside div.logo img{
-        width: 100%;
-        height: 100%;
+        width: 80%;
+        height: 60%;
     }
     
     aside div.artigo{
@@ -1909,7 +1887,6 @@ a img.twitter{
     div.conteudo p{
         width: 60%;
         font-size: 13px;
-        color: rgba(255, 255, 255, 0.699);
     }
     
     aside div.conteudo#desenvolvedor{
@@ -1920,13 +1897,11 @@ a img.twitter{
     }
     aside div.conteudo#desenvolvedor h3{
         text-decoration: none;
-        color: rgba(255, 255, 255, 0.705);
         margin-bottom: 10px;
     }
     
     aside div.conteudo#desenvolvedor p{
         text-decoration: none;
-        color: rgba(255, 255, 255, 0.699);
         font-size: 14px;
     }
     
@@ -1934,7 +1909,6 @@ a img.twitter{
         text-decoration: none;
         margin-bottom: 8px;
         font-size: 14px;
-        color: rgba(255, 255, 255, 0.534);
     }
     
     aside #sobre{
@@ -1944,7 +1918,6 @@ a img.twitter{
     }
     aside #sobre h3{
         text-decoration: none;
-        color: rgba(255, 255, 255, 0.705);
         margin-bottom: 10px;
     }
     aside #sobre a:hover{
@@ -1954,10 +1927,6 @@ a img.twitter{
         text-decoration: none;
         margin-bottom: 8px;
         font-size: 14px;
-        color: rgba(255, 255, 255, 0.534);
-    }
-    aside #sobre a:hover{
-        color: rgba(255, 255, 255, 0.61);
     }
     
     
@@ -1966,8 +1935,6 @@ a img.twitter{
         align-items: center;
         width: 100vw;
         height: 10vh;
-        border-top: 1px solid rgb(52, 52, 52);
-        background: rgb(12, 12, 12);
     }
     a.teste{
         text-align: center;
@@ -1975,10 +1942,6 @@ a img.twitter{
         width: 4.5%;
         height: 70%;
         border-radius: 10px;
-        background-color: rgb(20, 20, 20);
-    }
-    a.teste:hover{
-        background: rgb(24, 24, 24);
     }
     
     a.teste img{
@@ -1987,7 +1950,6 @@ a img.twitter{
         margin-top: 10px;
         padding: 5px;
         border-radius: 6px;
-        background: #8a2be2;
     }
     a img.youtube{
         padding: 9px;
@@ -1997,6 +1959,5 @@ a img.twitter{
     }
     a img.twitter{
         padding: 0;
-        background-color: rgb(20, 20, 20);
     }
 }
