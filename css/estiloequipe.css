@@ -99,7 +99,7 @@ height: 60%;
 .filho2 {
 width: 100%;
 height: 100%;    
-background-image: url("./image/time.jpeg");
+background-image: url("/image/time.jpeg");
 background-size: cover;
 
 } 
