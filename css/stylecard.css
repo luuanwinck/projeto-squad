@@ -174,11 +174,9 @@
 .primariaqs{
 
 
-<<<<<<< HEAD
-    background: url("../image/paises/globin.jpeg") center;
-=======
-    background: url("/image/paises/globin.jpeg") center;
->>>>>>> 0a36d118a3a0ae3245a957cd7ac651e63d086745
+
+    background: url("../image/planet.jpeg") center; 
+   
     background-size: cover;
     width: 100vw;
     height: 90vh;
@@ -427,7 +425,7 @@ border: none;
     width: 20%;
     height: 100%;
      /* border: 1px solid yellow; */
-<<<<<<< HEAD
+
 }
 
 
@@ -437,8 +435,8 @@ border: none;
     align-items: center;
     width: 90%;
     height: 100%;
-=======
->>>>>>> 0a36d118a3a0ae3245a957cd7ac651e63d086745
+
+
 }
 
 
