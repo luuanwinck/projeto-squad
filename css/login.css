@@ -13,11 +13,19 @@
     overflow-y: hidden;
   }
 
+<<<<<<< HEAD
   /*.align-self-center{
     position:absolute;
     top: 250px;
     left: 150px;
   }*/
+=======
+  .align-self-center{
+    position:absolute;
+    top: 250px;
+    left: 150px;
+  }
+>>>>>>> 0a36d118a3a0ae3245a957cd7ac651e63d086745
 
   
   

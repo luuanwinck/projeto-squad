@@ -76,7 +76,7 @@ const form = {
 function login(){
     
   firebase.auth().signInWithEmailAndPassword(form.email().value, form.password().value).then(response =>{
-     window.location.href = "home.html"
+     window.location.href = "index.html"
   }).catch(error =>{
     alert(getErrorMessage(error))
 
@@ -96,7 +96,7 @@ function getErrorMessage(error) {
 
 
 function pagina(){
-  window.location.href = "home.html"
+  window.location.href = "index.html"
 }
 
 function cadastrar(){

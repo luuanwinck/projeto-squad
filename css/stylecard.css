@@ -174,7 +174,11 @@
 .primariaqs{
 
 
+<<<<<<< HEAD
     background: url("../image/paises/globin.jpeg") center;
+=======
+    background: url("/image/paises/globin.jpeg") center;
+>>>>>>> 0a36d118a3a0ae3245a957cd7ac651e63d086745
     background-size: cover;
     width: 100vw;
     height: 90vh;
@@ -423,6 +427,18 @@ border: none;
     width: 20%;
     height: 100%;
      /* border: 1px solid yellow; */
+<<<<<<< HEAD
+}
+
+
+.mvv-img img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+=======
+>>>>>>> 0a36d118a3a0ae3245a957cd7ac651e63d086745
 }
 
 
@@ -433,6 +449,208 @@ border: none;
     width: 90%;
     height: 100%;
 }
+
+
+@media (max-width: 575.98px) {
+   .titulosqs h1{
+    font-size: 20px;
+   
+   }
+
+   .titulosqs h2{
+    font-size: 20px;
+   
+   }
+
+   .titulosqs h3{
+    font-size: 20px;
+   
+   }
+   .empresas li span{
+    font-size: 20px;
+    
+   }
+
+   .empresas li span::after{
+    display: none;
+    
+    
+   }
+
+   .empresas li{
+    animation: slide 3s steps(2) infinite;
+    position: relative;
+    top: 0;
+   }
+
+    .secundarioqs{
+        display: block;
+        width: 100vw;
+        height: 100vh;
+        
+
+    }
+    .interior{
+        width: 100%;
+        height: 80%;
+    }
+
+    .int{
+        width: 100%;
+        height: 100%;
+        border: 1px solid yellow;
+
+    }
+    .img2 img{
+       width: 100%;
+    }
+}
+
+   
+
+
+ /* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .titulosqs h1{
+        font-size: 22px;
+       
+       }
+    
+       .titulosqs h2{
+        font-size: 22px;
+       
+       }
+    
+       .titulosqs h3{
+        font-size: 22px;
+       
+       }
+       .empresas li span{
+        font-size: 18px;
+        margin-left: -15px;
+        
+       }
+    
+       .empresas li span::after{
+        display: none;
+        
+        
+       }
+    
+       .empresas li{
+        animation: slide 3s steps(2) infinite;
+        position: relative;
+        top: 0;
+       }
+    
+        .secundarioqs{
+             display: block; 
+            width: 100vw;
+            height: 100vh;
+            
+    
+        }
+        .interior{
+             width: 100%;
+            height: 100%; 
+        }
+    
+        .int{
+             width: 100%;
+            height: 100%; 
+            border: 1px solid yellow;
+    
+        }
+        .img2 img{
+            width: 100%; 
+        }
+ }
+
+ /* Dispositivos médios (tablets com 768px ou mais) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .titulosqs h1{
+        font-size: 25px;
+       
+       }
+    
+       .titulosqs h2{
+        font-size: 25px;
+       
+       }
+    
+       .titulosqs h3{
+        font-size: 25px;
+       
+       }
+       .empresas li span{
+        font-size: 25px;
+        margin-left: -5px;
+        
+       }
+    
+       .empresas li span::after{
+        display: none;
+        
+        
+       }
+    
+       .empresas li{
+        animation: slide 3s steps(2) infinite;
+        position: relative;
+        top: 0;
+       }
+    
+        .secundarioqs{
+             display: block; 
+            width: 100vw;
+            height: 100vh;
+            
+    
+        }
+        .interior{
+             width: 100%;
+            height: 100%; 
+        }
+    
+        .int{
+             width: 100%;
+            height: 100%; 
+            border: 1px solid yellow;
+    
+        }
+        .img2 img{
+            width: 100%; 
+        }
+        
+       
+    
+}
+
+/* Dispositivos large (desktops com 992px ou mais) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .empresas li span{
+        font-size: 25px;
+        margin-left: -5px;
+}
+
+.empresas li span::after{
+    display: none;
+    
+    
+   }
+
+
+}
+
+ /* Dispositivos extra large (desktops grandes com 1200px ou mais) */
+@media (min-width: 1200px) {
+    .empresas li span::after{
+        overflow: hidden;
+        
+        
+       }
+ }
+
 
 
 
