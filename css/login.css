@@ -8,24 +8,24 @@
   }
   
   body {
-    background-color: #003F66;
+    background-color: #156179;
     color: var(--primary-color);
     overflow-y: hidden;
   }
 
-<<<<<<< HEAD
+
   /*.align-self-center{
     position:absolute;
     top: 250px;
     left: 150px;
   }*/
-=======
+
   .align-self-center{
     position:absolute;
     top: 250px;
     left: 150px;
   }
->>>>>>> 0a36d118a3a0ae3245a957cd7ac651e63d086745
+
 
   
   
@@ -196,5 +196,12 @@
     #save-btn {
       width: 8em;
     }
+  }
+
+  @media (max-width: 1200px){
+    .login{
+      display: none;
+    }
+
   }
 
