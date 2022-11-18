@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    font-family: 'Source Sans Pro';
+  }
+
+
+  .mentoria-all{
+    width: 100vw;
+    height: 60vh;
+    background-color: #f5eff1;
+  }
+
+  .mentoria-all h1{
+    padding: 120px 0 0 70px;
+    font-size: 60px;
+    color: #0A1D38;
+    
+    width: 500px;
+  }
+
+  .mentoria-all p{
+    padding: 0 0 0 70px;
+    color: #0A1D38;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  .cont {
+    
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    
+    
+    
+    
+  }
+  
+  /* Card */
+  .card {
+    width: 300px;
+    height: 850px;
+    margin: 25px;
+    background-color: #111314;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    transition: 0.3s;
+   
+  }
+
+  .card3{
+    margin-left: 500px;
+    width: 600px;
+    height: 850px;
+    margin: 25px;
+    background-color: #111314;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    transition: 0.3s;
+
+  }
+  .alinhar{
+   
+    width: 100vw;
+    height: 100vh;
+    background-color: #0A1D38;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  /* Card Header*/
+  .card-header {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+
+  
+
+  .dentro button{
+    padding: 10px 15px;
+    width: 100%;
+    background-color:  rgb(209, 97, 6);
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 900;
+    border: none;
+    cursor: pointer;
+  }
+
+  .dentro button:hover{
+    background-color:  rgb(199, 107, 32);
+
+  }
+  
+  .card-img {
+    min-width: 100%;
+    width: auto;
+    height: 100%;
+  }
+  
+  /* Card Body */
+  .card-body {
+    height: 170px;
+    padding: 15px;
+    text-align: center;
+    
+  }
+  
+  .card-local {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .card-titulo1{
+    font-size: 32px;
+    margin: 15px 0;
+    color: #cd7f32;
+    cursor: pointer;
+  }
+
+  .card-titulo2{
+    font-size: 32px;
+    margin: 15px 0;
+    color:  #c0c0c0;
+    cursor: pointer;
+  }
+
+  .card-titulo3{
+    font-size: 32px;
+    margin: 15px 0;
+    color: #ffd700;
+    cursor: pointer;
+  }
+  
+  .card-texto {
+    font-size: 18px;
+    width: 250px;
+    margin: 0 auto;
+    color: rgb(248, 240, 240);
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-between;
+    cursor: pointer;
+   
+    
+    
+  }
+
+  .dentro{
+    padding-top: 10px;
+  }
+  
+  /* Card Footer */
+  .card-footer {
+    margin-top: 10px;
+    text-align: center;
+    background-color: rgb(138, 39, 39);
+  }
+  
+  .card-footer a {
+    color: #fff;
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+  
+  /* Cores Cards */
+  .card-1 .card-footer {
+    background-color: #8C7853;
+  }
+  
+  .card-1 .card-local {
+    color: #e5e7f1;
+  }
+  
+  .card-2 .card-footer {
+    background-color: #B5A642
+  }
+  
+  .card-2 .card-local {
+    color: #fcf9fa;
+  }
+  
+  .card-3 .card-footer {
+    background-color: #D9D919
+  }
+  
+  .card-3 .card-local {
+    color: #f9fdf9;
+  }
+  
+  /* Animação Hover */
+  /* .card:hover {
+    transform: scale3d(1.1, 1.1, 1);
+  }
+   */
+
+   .all-mentoria{
+    width: 100vw;
+    height: 100vh;
+   }
+
+   .texto-one{
+    width: 100%;
+    height: 20%;
+    
+   }
+
+   .texto-one h4 {
+    padding: 25px 0 10px 80px;
+    color: #0A1D38;
+    font-size: 24px;
+
+
+   }
+
+   .texto-one h1{
+    padding: 0px 0 7px 80px;
+    color: #0A1D38;
+    font-size: 40px;
+
+
+   }
+
+   .texto-one p{
+    padding: 0px 0 0 80px;
+    color: #0A1D38;
+    font-size: 18px;
+   }
+
+   .texto-two{
+    width: 100%;
+    height: 15%;
+    
+   }
+
+   .texto-two p{
+    padding: 40px 0 10px 120px;
+    color: #0A1D38;
+    letter-spacing: 2px;
+    text-shadow: 1px   black;
+   }
+
+
+   .conteudo-ment{
+    width: 100vw;
+    height: 65%;
+    
+    display: flex;
+    
+   }
+
+   .interior-ment{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .interior-ment p{
+    padding-bottom: 90px;
+    color: #0A1D38;
+    cursor: pointer;
+    
+   }
+
+   .interior-ment h3{
+    color: #0A1D38;
+    font-size: 30px;
+    cursor: pointer;
+    
+
+   }
