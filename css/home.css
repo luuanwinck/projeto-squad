@@ -32,6 +32,7 @@ body{
     width: 100vw;
     height: 100vh;
     background: white;
+    font-family: 'Source Sans Pro';
     
 }
 header{
@@ -143,7 +144,7 @@ main.primario div.boxall{
     width: 100%;
     height: 100%;
     font-family: arial;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(5px);
 }
 main.primario div.boxall div.titulo{
     margin-bottom: 7%;
@@ -201,7 +202,7 @@ main.secundario div.boxall div.video iframe{
     width: 100%;
     height: 100%;
     border-radius: 6px;
-    box-shadow: 1px 1px 10px blueviolet;
+    box-shadow: 1px 1px 10px rgb(245, 124, 76);
     opacity: .8;
 }
 
@@ -324,10 +325,269 @@ main.quaternario div.boxall div.all div.artigo h4{
 
 
 
-main.quinario{
+main.quin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100vw;
-    height: 60vh;
+    height: 100vh;
 }
+
+main.quin .all{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 90%;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 12px ;
+}
+
+main .all .titulo{
+    width: 100%;
+    height: 20%;
+    margin-bottom: 5px;
+}
+main .all .titulo h2{
+    font-size: 55px;
+    margin-left: 70px;
+    color: rgb(58, 100, 136);;
+}
+main .all .titulo h2 span{
+    color: #948900;
+}
+
+
+main .all .artigo{
+    width: 50%;
+    height: 40%;
+}
+
+main .artigo .titulo2{
+    display: flex;
+    align-items: end;
+    width: 100%;
+    height: 60%;
+}
+main .artigo .titulo2 h4{
+    margin-left: 5px;
+}
+
+main .artigo .info{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+}
+main .artigo .info img{
+    width: 16%;
+    height: 85%;
+    margin-left: 5px;
+    border: 2px solid;
+    border-radius: 100%;
+}
+
+main .artigo .info h3{
+    margin-left: 10px;
+    color: gray;
+}
+main .artigo .info h3 span{
+    color: rgb(58, 100, 136);
+}
+
+
+main .artigo .titulo3{
+    display: flex;
+    align-items: start;
+    text-align: end;
+    width: 100%;
+    height: 45%;
+}
+
+main .artigo .info{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+}
+main .artigo .info img{
+    width: 16%;
+    height: 85%;
+    margin-left: 5px;
+    border: 2px solid;
+    border-radius: 100%;
+}
+
+main .artigo .info h3{
+    margin-left: 10px;
+    color: gray;
+}
+main .artigo .info h3 span{
+    color: rgb(58, 100, 136);
+}
+
+
+
+
+main .artigo .info3{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+}
+main .artigo .info3 img{
+    width: 16%;
+    height: 90%;
+    margin-left: 5px;
+    border: 2px solid;
+    border-radius: 100%;
+}
+
+main .artigo .info3 h3{
+    margin-left: 10px;
+    color: gray;
+}
+main .artigo .info3 h3 span{
+    color: rgb(58, 100, 136);
+}
+
+
+
+main .artigo .info4{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+}
+main .artigo .info4 img{
+    width: 16%;
+    height: 95%;
+    margin-left: 5px;
+    border: 2px solid;
+    border-radius: 100%;
+}
+
+main .artigo .info4 h3{
+    margin-left: 10px;
+    color: gray;
+}
+main .artigo .info4 h3 span{
+    color: rgb(58, 100, 136);
+}
+
+
+main.sext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+main.sext .empresas{
+    width: 80%;
+    height: 90%;
+    background: #156179;
+    border: 5px solid rgb(245, 124, 76);
+    
+}
+
+main .empresas .artigo{
+    width: 100%;
+    height: 40%;
+    margin-top: 50px;
+    text-align: center;
+}
+main .empresas .artigo h2{
+    color: white;
+    font-size: 55px;
+
+}
+
+main .empresas .artigo p{
+    color: rgb(197, 195, 195);
+    font-size: 24px;
+    
+}
+
+main .empresas .fotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 45%;
+}
+main .empresas .fotos img{
+    width: 17%;
+    height: 20%;
+    color: black;
+}
+
+
+
+main.sete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(226, 225, 225);
+}
+
+main .assinatura{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+}
+
+main .assinatura .foto{
+    width: 50;
+    height: 90%;
+}
+main .assinatura .foto img{
+    width: 95%;
+    height: 100%;
+    box-shadow: 1px 1px 12px #15627949;
+}
+
+
+main .assinatura .comecar{
+    width: 50%;
+    height: 60%;
+}
+main .assinatura .comecar h2{
+    font-size: 50px;
+    color: rgb(58, 100, 136);
+}
+main .assinatura .comecar h2 span{
+    color: rgb(245, 124, 76);
+}
+main .assinatura .comecar p{
+    margin-top: 25px;
+    color: rgb(41, 40, 40);
+}
+
+main .assinatura .comecar div{
+    margin-top: 50px;
+    text-align: center;
+}
+main .assinatura .comecar a{
+    padding: 10px 12px;
+    border: 2px solid rgb(58, 100, 136);
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(68, 68, 68);
+}
+main .assinatura .comecar a:hover{
+    color: white;
+    background: rgb(58, 100, 136);
+}
+
+
 
 
 aside{
@@ -447,7 +707,7 @@ footer{
 a.teste{
     text-align: center;
     margin-right: 5px;
-    width: 4.5%;
+    width: 3%;
     height: 70%;
     border-radius: 10px;
     background-color: rgb(11, 91, 116);

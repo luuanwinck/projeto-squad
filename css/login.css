@@ -10,7 +10,17 @@
   body {
     background-color: #003F66;
     color: var(--primary-color);
+    overflow-y: hidden;
   }
+
+  /*.align-self-center{
+    position:absolute;
+    top: 250px;
+    left: 150px;
+  }*/
+
+  
+  
 
   
   /* Message */

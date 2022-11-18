@@ -9,7 +9,7 @@
 {
     min-height: 100vh;
     display: flex;
-    
+
     align-items: center;
     justify-content: center;
     background-color: #EFEFEF;
@@ -22,6 +22,7 @@
     width: 100%;
     background-color: rgba(151, 141, 141, 0.452);
     padding: 40px;
+    margin-bottom: 100px;
 
 }
 
@@ -36,7 +37,7 @@
 
 .card
 {
-    
+
 
     border-radius: 25px;
     background-color: #fff;
@@ -59,7 +60,7 @@
     position: relative;
     row-gap: 5px;
     padding: 25px 0;
-    
+
 }
 
 
@@ -110,9 +111,9 @@
     height: 150px;
     width: 200px;
     border-radius: 4px;
-    
+
     padding: 3px;
-    
+
 }
 
 
@@ -120,11 +121,11 @@
 {
     height: 100%;
     width: 100%;
-    
+
     border-radius: 4px;
-    
-     
-    
+
+
+
 }
 
 .name
@@ -159,7 +160,7 @@
 
 .button:hover
 {
-    
+
     background-color: #033757;
 }
 
@@ -171,16 +172,15 @@
 
 
 .primariaqs{
-     
-    
-    background: url("/image/paises/todos.png") center  ; 
-    
-   
-   
-    
+
+
+    background: url("../image/paises/globin.jpeg") center;
+    background-size: cover;
     width: 100vw;
     height: 90vh;
+    
     /* border: 1px solid yellow; */
+
 }
 
  .caixa{
@@ -190,14 +190,14 @@
      display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
     align-items: center;
-    border-radius: 5px; 
+    border-radius: 5px;
     transition:  all 0.25s ease-in-out;
     margin: 130px 0 0 0;
      /* border: 1px solid rgb(41, 173, 7);   */
-    
-} 
+
+}
 
 /* .if{
     width: 50%;
@@ -224,23 +224,25 @@
 .titulosqs{
     display: flex;
     justify-content: center;
-    
-    
-     
+backdrop-filter: blur(5px);
+border: none;
+
+
     width: 100%;
     
+
        /* border: 1px solid rgb(196, 14, 14);    */
-    
-    
-    
+
+
+
 }
 .titulosqs h1{
-    color: rgb(250, 245, 245);   
+    color: #C4B818;
     font-size: 50px;
     text-align: center;
     text-shadow: 1px 1px 1px black;
     font-family: 'Source Sans Pro';
-    
+
 
 }
 
@@ -276,34 +278,37 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid yellow; */
+     /* border: 1px solid yellow; */
     width: 100%;
-    height: 45.5%;
+    height: 34%;
+    backdrop-filter: blur(5px);
+    
 }
 
 .destaque{
     text-align: center;
-    padding: 40px 0 0 0;
-   
-    
+
+
 }
 
 .destaque p {
-    margin-top: 30px;
+
     font-size: 40px;
     font-weight: 800;
     font-family: 'Source Sans Pro';
     color: white;
    
+
+
 }
 
 .empresas{
-    
+
     width: 100%;
     height: 17.8%;
-    
-    
-    
+
+
+
 }
 .empresas ul{
     margin: 40px 0 0 0;
@@ -311,16 +316,16 @@
     justify-content: space-around;
     list-style-type: none;
     align-items: center;
-    
-    
+
+
 }
 
 .empresas ul li{
     font-size: 38px;
     color: white;
     font-family: 'Source Sans Pro';
-  
-    
+
+
 }
 
 
@@ -332,8 +337,8 @@
 }
 
 .interior{
-    width: 50%;
-    height: 80%;
+    width: 60%;
+    height: 90%;
     /* border: 1px solid black; */
     display: flex;
     justify-content: center;
@@ -341,36 +346,33 @@
 }
 
 .int{
-   
-    width: 80%;
-    height: 90%;
+
+    width: 40vw;
+    height: 80vh;
     /* border: 1px solid black; */
+
 }
 
 .int2{
-   
+
     width: 90%;
     height: 80%;
     /* border: 1px solid black; */
 }
 
 .int img{
-    width: 100%;
-    
+   width: 100%;
+   height: 100%;
+
 }
 
-.img2{
-    width: 50%;
-    height: 5%;
-    
 
-    
-}
 
-.img2 img{
-    width: 100%;
-    height: 100%;
-}
+
+
+
+
+
 
 .int-txt h1{
     font-family: 'Source Sans Pro';
@@ -392,12 +394,12 @@
 .mvv{
     width: 100%;
     height: 23.4%;
-    /* border: 1px solid rgb(29, 175, 10); */
+     /* border: 1px solid rgb(29, 175, 10);  */
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: left
-    
+
 }
 
 .mvv-txt{
@@ -411,7 +413,7 @@
 
 .mvv-txt p {
     color: #333333;
-    
+
 
 }
 
@@ -419,8 +421,17 @@
 
 .mvv-img{
     width: 20%;
-    height: 60%;
-    /* border: 1px solid yellow; */
+    height: 100%;
+     /* border: 1px solid yellow; */
+}
+
+
+.mvv-img img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 100%;
 }
 
 
