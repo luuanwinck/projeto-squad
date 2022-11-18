@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-#time
+/* #time
 {
     min-height: 100vh;
     display: flex;
@@ -168,17 +168,17 @@
 #height-card{
     max-height: 383px;
 
-}
+} */
 
 
 .primariaqs{
 
 
-<<<<<<< HEAD
-    background: url("../image/paises/globin.jpeg") center;
-=======
-    background: url("/image/paises/globin.jpeg") center;
->>>>>>> 0a36d118a3a0ae3245a957cd7ac651e63d086745
+
+    background: url("../image/planet.jpeg") center;
+
+    
+
     background-size: cover;
     width: 100vw;
     height: 90vh;
@@ -228,7 +228,7 @@
 .titulosqs{
     display: flex;
     justify-content: center;
-backdrop-filter: blur(5px);
+
 border: none;
 
 
@@ -255,6 +255,7 @@ border: none;
     color: white;
     text-shadow: 1px 1px 1px black;
     font-family: 'Source Sans Pro';
+    text-shadow: 1px 1px 1px black;
 }
 .titulosqs h3{
     color: white;
@@ -266,7 +267,7 @@ border: none;
     border: none;
     color: white;
     padding: 10px 15px;
-    background-color: #2C5593;
+    background-color: #6DA6DB;
     border-radius: 5px;
 }
 
@@ -274,7 +275,10 @@ border: none;
     text-decoration: none;
     color: white;
     font-size: 18px;
+    font-weight: bold   ;
     font-family: 'Source Sans Pro';
+    text-shadow: 1px 1px 1px black;
+
 }
 
 .center-destaque{
@@ -282,15 +286,16 @@ border: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-     /* border: 1px solid yellow; */
+      border: 1px solid yellow; 
     width: 100%;
-    height: 34%;
-    backdrop-filter: blur(5px);
+    height: 45.8%;
+    
     
 }
 
 .destaque{
     text-align: center;
+    border: 1px solid yellow;
 
 
 }
@@ -301,6 +306,7 @@ border: none;
     font-weight: 800;
     font-family: 'Source Sans Pro';
     color: white;
+    text-shadow: 1px solid black;
    
 
 
@@ -328,6 +334,9 @@ border: none;
     font-size: 38px;
     color: white;
     font-family: 'Source Sans Pro';
+    text-shadow: 1px 1px 1px black;
+    padding-top: 85px;
+
 
 
 }
@@ -427,7 +436,7 @@ border: none;
     width: 20%;
     height: 100%;
      /* border: 1px solid yellow; */
-<<<<<<< HEAD
+
 }
 
 
@@ -437,8 +446,8 @@ border: none;
     align-items: center;
     width: 90%;
     height: 100%;
-=======
->>>>>>> 0a36d118a3a0ae3245a957cd7ac651e63d086745
+
+
 }
 
 
@@ -493,17 +502,27 @@ border: none;
     .interior{
         width: 100%;
         height: 80%;
+        display: none;
+    }
+    .interior2{
+        width: 100%;
+        height: 100%;
+
     }
 
     .int{
         width: 100%;
         height: 100%;
-        border: 1px solid yellow;
+        
 
     }
     .img2 img{
        width: 100%;
     }
+}
+
+.center-destaque{
+    display: none;
 }
 
    
@@ -537,28 +556,34 @@ border: none;
         
        }
     
-       .empresas li{
-        animation: slide 3s steps(2) infinite;
-        position: relative;
-        top: 0;
-       }
+       
     
         .secundarioqs{
              display: block; 
             width: 100vw;
             height: 100vh;
             
+            
     
         }
         .interior{
              width: 100%;
             height: 100%; 
+            display:none;
+            
+            
         }
+        .interior2{
+            width: 100%;
+           height: 100%; 
+       }
     
         .int{
              width: 100%;
             height: 100%; 
             border: 1px solid yellow;
+            display:none;
+            
     
         }
         .img2 img{
@@ -608,15 +633,24 @@ border: none;
     
         }
         .interior{
-             width: 100%;
-            height: 100%; 
+             width: 50%;
+            height: 90%; 
         }
+        .interior2{
+            width: 50%;
+           height: 90%; 
+       }
     
         .int{
              width: 100%;
             height: 100%; 
-            border: 1px solid yellow;
+            
     
+        }
+
+        .secundarioqs{
+            display: flex;
+            
         }
         .img2 img{
             width: 100%; 
