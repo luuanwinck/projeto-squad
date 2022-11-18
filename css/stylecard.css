@@ -175,7 +175,7 @@
 
 
 
-    background: url("../image/planet.jpeg") center; 
+    background: url("./image/planet.jpeg") center; 
    
     background-size: cover;
     width: 100vw;
