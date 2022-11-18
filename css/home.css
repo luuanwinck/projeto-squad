@@ -736,6 +736,17 @@ a img.twitter{
 }
 
 @media screen and (min-width: 378px) and (max-width: 585px){
+    main.quin{
+        display: none;
+    }
+
+    main.sext{
+        display: none;
+    }
+
+    main .assinatura .comecar a{
+        padding: 5px 5px;
+    }
     header{
         display: flex;
         flex-wrap: wrap;
@@ -793,7 +804,7 @@ a img.twitter{
         left: 66%;
     }
     header div.acesso a.entrar{
-        display: ;
+        /* display: */
         margin-left: 55%;
         margin-right: 4%;
         padding: 4% 12%;
@@ -971,7 +982,14 @@ a img.twitter{
     }
 }
 
-@media screen and (min-width: 586px) and (max-width: 699px){
+@media  (min-width: 586px) and (max-width: 699px){
+    main.quin{
+        display: none;
+    }
+    main.sext{
+        display: none;
+    }
+    
     header{
         display: flex;
         flex-wrap: wrap;
@@ -1030,7 +1048,7 @@ a img.twitter{
         left: 70%;
     }
     header div.acesso a.entrar{
-        display: ;
+        /* display: ; */
         margin-left: 62%;
         margin-right: 4%;
         padding: 4% 10%;
@@ -1246,11 +1264,15 @@ a img.twitter{
     footer a.teste img{
         width: 50%;
     }
+   
 
 }
 
 
 @media screen and (min-width: 700px) and (max-width: 767px){
+    .quin{
+        display: none;
+    }
     header{
         display: flex;
         flex-wrap: wrap;
@@ -1309,7 +1331,7 @@ a img.twitter{
         left: 72%;
     }
     header div.acesso a.entrar{
-        display: ;
+        /* display: ; */
         margin-left: 63%;
         margin-right: 4%;
         padding: 4% 10%;
@@ -1588,7 +1610,7 @@ a img.twitter{
         left: 68%;
     }
     header div.acesso a.entrar{
-        display: ;
+        /* display: ; */
         margin-left: 59%;
         margin-right: 4%;
         padding: 4% 10%;
@@ -1708,6 +1730,8 @@ a img.twitter{
         margin-left: 2%;
     }
 
+   
+
     main.quaternario div.boxall div.titulo{
         display: flex;
         width: 100%;
@@ -1820,13 +1844,14 @@ a img.twitter{
 }
 
 @media screen and (min-width: 850px) and (max-width: 992px){
+   
     header div.acesso span{
         position: relative;
         font-size: 40px;
         left: 71%;
     }
     header div.acesso a.entrar{
-        display: ;
+        /* display: ; */
         margin-left: 61%;
         margin-right: 4%;
         padding: 4% 10%;
@@ -1838,6 +1863,7 @@ a img.twitter{
 
 
 @media screen and (min-width: 993px) and (max-width: 1200px) {
+   
     header{
         display: flex;
         justify-content: space-between;
